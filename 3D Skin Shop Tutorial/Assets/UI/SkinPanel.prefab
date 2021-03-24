@@ -166,6 +166,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   skinToEquip: {fileID: 0}
+  buttonText: {fileID: 1749432265826016934}
+  skinID: 0
+  skinCost: 1
 --- !u!1 &1749432265211835082
 GameObject:
   m_ObjectHideFlags: 0
@@ -290,7 +293,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 8705990059212331864}
         m_TargetAssemblyTypeName: SkinPanel, Assembly-CSharp
-        m_MethodName: EquipSkin
+        m_MethodName: OnSkinButtonPress
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -380,7 +383,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Equip
+  m_text: 'Buy For '
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
